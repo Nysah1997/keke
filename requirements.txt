@@ -1,0 +1,6 @@
+
+discord.py>=2.3.0
+pytz
+pytz
+pytz
+pytz

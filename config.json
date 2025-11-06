@@ -1,0 +1,93 @@
+{
+    "discord_bot_token": "",
+    "bot_settings": {
+        "command_prefix": "!",
+        "description": "Bot de seguimiento de tiempo para Discord",
+        "activity_name": "Rastreando tiempos de usuarios",
+        "activity_type": "watching"
+    },
+    "time_tracking": {
+        "auto_voice_tracking": false,
+        "save_interval_minutes": 5,
+        "cleanup_inactive_days": 30,
+        "max_time_hours": 168
+    },
+    "permissions": {
+        "admin_only_commands": true,
+        "allowed_roles": [],
+        "allowed_users": []
+    },
+    "display": {
+        "language": "es",
+        "timezone": "UTC",
+        "date_format": "%d/%m/%Y %H:%M:%S",
+        "embed_color": "#3498db"
+    },
+    "notification_channels": {
+        "milestones": 1430689717602615300,
+        "pauses": 1430689717602615301,
+        "cancellations": 1430689718080897125,
+        "unpause": 1430689718080897124,
+        "attendances": 1430689717602615300,
+        "movements": 1430689717602615298
+    },
+    "gold_role_id": 1430689715761451116,
+    "command_permission_role_id": 1384620398485832000,
+    "mi_tiempo_role_id": 1430689715761451113,
+    "role_tiers": {
+        "medios": {
+            "role_id": 1430689715761451115,
+            "credits_1h": 5,
+            "credits_2h": 10,
+            "max_hours": 2,
+            "days_allowed": ["miercoles", "jueves", "viernes"]
+        },
+        "altos": {
+            "role_id": 1430689716172230676,
+            "credits_total": 60,
+            "credits_per_hour": 10.0,
+            "max_hours_per_day": 2,
+            "days_allowed": ["miercoles", "jueves", "viernes"]
+        },
+        "imperiales": {
+            "role_id": 1430689716172230677,
+            "credits_total": 80,
+            "credits_per_hour": 13.33,
+            "max_hours_per_day": 2,
+            "days_allowed": ["miercoles", "jueves", "viernes"]
+        },
+        "nobleza": {
+            "role_id": 1430689716172230678,
+            "credits_total": 90,
+            "credits_per_hour": 15.0,
+            "max_hours_per_day": 2,
+            "days_allowed": ["miercoles", "jueves", "viernes"]
+        },
+        "monarquia": {
+            "role_id": 1430689715761451117,
+            "credits_total": 100,
+            "credits_per_hour": 16.67,
+            "max_hours_per_day": 2,
+            "days_allowed": ["miercoles", "jueves", "viernes"]
+        },
+        "supremos": {
+            "role_id": 1430689716172230679,
+            "credits_total": 130,
+            "credits_per_hour": 21.67,
+            "max_hours_per_day": 2,
+            "days_allowed": ["miercoles", "jueves", "viernes"]
+        }
+    },
+    "auto_install_dependencies": true,
+    "startup_config": {
+        "main_file": "bot.py",
+        "alternative_files": [
+            "main.py",
+            "start.py",
+            "run.py"
+        ],
+        "required_packages": [
+            "discord.py"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "1327814739866292227": {
+    "name": "AuronPlay",
+    "total_time": 0,
+    "sessions": [
+      {
+        "start": "2025-10-30T23:14:25.047018",
+        "end": "2025-10-30T23:24:04.008404",
+        "duration": 578.961374
+      }
+    ],
+    "is_active": false,
+    "is_paused": false,
+    "pause_count": 0,
+    "notified_milestones": [],
+    "milestone_completed": false,
+    "is_pre_registered": false,
+    "extra_minutes": 0,
+    "confirmed_credits": 20
+  },
+  "1433250260016169064": {
+    "name": "Bodmand",
+    "total_time": 0,
+    "sessions": [
+      {
+        "start": "2025-10-30T23:28:19.006183",
+        "end": "2025-10-30T23:28:27.158197",
+        "duration": 8.152004
+      }
+    ],
+    "is_active": false,
+    "is_paused": false,
+    "pause_count": 0,
+    "notified_milestones": [],
+    "milestone_completed": false,
+    "is_pre_registered": false,
+    "confirmed_credits": 20,
+    "extra_minutes": 0
+  }
+}
